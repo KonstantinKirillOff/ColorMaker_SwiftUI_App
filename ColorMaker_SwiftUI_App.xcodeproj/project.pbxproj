@@ -11,6 +11,11 @@
 		B577069F272BF2F50083B55F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B577069E272BF2F50083B55F /* ContentView.swift */; };
 		B57706A1272BF2FE0083B55F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B57706A0272BF2FE0083B55F /* Assets.xcassets */; };
 		B57706A4272BF2FE0083B55F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B57706A3272BF2FE0083B55F /* Preview Assets.xcassets */; };
+		B57706AB272BF3540083B55F /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57706AA272BF3540083B55F /* SliderView.swift */; };
+		B57706AD272BF5410083B55F /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57706AC272BF5400083B55F /* TextView.swift */; };
+		B57706AF272C01830083B55F /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57706AE272C01830083B55F /* TextFieldView.swift */; };
+		B57706B1272C03630083B55F /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57706B0272C03630083B55F /* ColorView.swift */; };
+		B57706B3272C073C0083B55F /* SliderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57706B2272C073C0083B55F /* SliderComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		B577069E272BF2F50083B55F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B57706A0272BF2FE0083B55F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B57706A3272BF2FE0083B55F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B57706AA272BF3540083B55F /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		B57706AC272BF5400083B55F /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		B57706AE272C01830083B55F /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		B57706B0272C03630083B55F /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		B57706B2272C073C0083B55F /* SliderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,7 @@
 				B577069E272BF2F50083B55F /* ContentView.swift */,
 				B57706A0272BF2FE0083B55F /* Assets.xcassets */,
 				B57706A2272BF2FE0083B55F /* Preview Content */,
+				B5F9054D272C440700D6F4F0 /* UIElements */,
 			);
 			path = ColorMaker_SwiftUI_App;
 			sourceTree = "<group>";
@@ -65,6 +76,18 @@
 				B57706A3272BF2FE0083B55F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B5F9054D272C440700D6F4F0 /* UIElements */ = {
+			isa = PBXGroup;
+			children = (
+				B57706B2272C073C0083B55F /* SliderComponent.swift */,
+				B57706B0272C03630083B55F /* ColorView.swift */,
+				B57706AE272C01830083B55F /* TextFieldView.swift */,
+				B57706AC272BF5400083B55F /* TextView.swift */,
+				B57706AA272BF3540083B55F /* SliderView.swift */,
+			);
+			path = UIElements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B57706B1272C03630083B55F /* ColorView.swift in Sources */,
+				B57706B3272C073C0083B55F /* SliderComponent.swift in Sources */,
+				B57706AB272BF3540083B55F /* SliderView.swift in Sources */,
+				B57706AF272C01830083B55F /* TextFieldView.swift in Sources */,
+				B57706AD272BF5410083B55F /* TextView.swift in Sources */,
 				B577069F272BF2F50083B55F /* ContentView.swift in Sources */,
 				B577069D272BF2F50083B55F /* ColorMaker_SwiftUI_AppApp.swift in Sources */,
 			);
@@ -276,7 +304,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +333,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
